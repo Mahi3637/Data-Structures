@@ -36,7 +36,7 @@ public class Node{
   public void display() {
     Node currentNode = head;
     while (currentNode != null) {
-        System.out.print(currentNode.data + " -> ");
+        System.out.print(currentNode.data + " -> ");    
         currentNode = currentNode.next;
     }
     System.out.println("null");
@@ -95,7 +95,7 @@ public void fromArr(int[]arr){
     n3.next = null;
     n1.head = head;
 
-    n1.display();
+    n1.display(); 
 
     System.out.println("After appending and prepending: ");
     n1.addFirst(50);
