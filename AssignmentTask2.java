@@ -6,7 +6,7 @@ public class AssignmentTask2{
     public static Node organizeBooks(Node head, Integer[] popularity) {
         
         //TO DO
-
+      
         return null; // Remove this when you're ready to return the new head
     }
 
