@@ -37,6 +37,7 @@ public class AssignmentTask1 {
          }
        else{
         return " not similar";
+        
        } 
     }
 
