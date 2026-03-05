@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class AssignmentTask2{
     
     // MUST SUBMIT this method
-    public static Node organizeBooks(Node head, Integer[] popularity) {
+    public static Node1 organizeBooks(Node1 head, Integer[] popularity) {
         
         //TO DO
       
@@ -15,7 +15,7 @@ public class AssignmentTask2{
     //DO NOT SUBMIT THE DRIVER CODE BELOW
     public static void main(String[] args) {
         System.out.println("=================Test Case 1=================");
-        Node books = LinkedList.createList(new String[]{"Dune", "IT", "Coraline", "Inferno", "Twlight"});
+        Node1 books = LinkedList.createList(new String[]{"Dune", "IT", "Coraline", "Inferno", "Twlight"});
         Integer[] arr = { 8, 10, 5, 10, 6 };
 
         System.out.println("Sample Given LinkedList and Popularity array:  ");
@@ -31,7 +31,7 @@ public class AssignmentTask2{
 
        
         System.out.println("=================Test Case 2=================");
-        Node books2 = LinkedList.createList(new String[]{"Hamlet", "Persuasion", "It", "Dracula", "Beloved"});
+        Node1 books2 = LinkedList.createList(new String[]{"Hamlet", "Persuasion", "It", "Dracula", "Beloved"});
         Integer[] arr2 = {7, 9, 9, 6, 7};
 
         System.out.println("Sample Given LinkedList and Popularity array:  ");
@@ -47,7 +47,7 @@ public class AssignmentTask2{
 
 
         System.out.println("=================Test Case 3=================");
-        Node books3 = LinkedList.createList(new String[]{"Matilda", "Franny", "Foundation", "Carrie", "Misery"});
+        Node1 books3 = LinkedList.createList(new String[]{"Matilda", "Franny", "Foundation", "Carrie", "Misery"});
         Integer[] arr3 = {5, 8, 8, 10, 6};
 
         System.out.println("Sample Given LinkedList and Popularity array:  ");
