@@ -19,7 +19,9 @@ public class AssignmentTask5 {
          Node newNode = new Node(sum);
          newNode.next = dh;
          
-         // Find the last node
+       if((int) current.elem % 2 == 0){
+           current = current.next;
+       }
          Node lastNode = dh;
          while (lastNode.next != dh) {
                lastNode = lastNode.next;
