@@ -67,4 +67,4 @@ public class GameArena {
 
         sc.close();
     }
-}
+} 

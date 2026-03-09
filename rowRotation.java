@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class rowRotation {
@@ -48,6 +49,6 @@ public class rowRotation {
 
         System.out.println("AA will be on row: " + result);
 
-        sc.close();
-    }
+            }
 }
+

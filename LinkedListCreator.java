@@ -178,7 +178,7 @@ public class LinkedListCreator {
             return;
         }
         
-        // Go to the beginning (dummy head)
+        // Go to the beginning (dummy head)    
         Node temp = random;
         while (temp.prev != null) {
             temp = temp.prev;
@@ -209,7 +209,7 @@ public class LinkedListCreator {
         return head; 
     }
 
-    public  Node insertAt(Node head, int idx, int data){
+    public   Node insertAt(Node head, int idx, int data){
         Node newNode = new Node(data);
         Node predecessor = insertAt(head, idx -1, data);
         Node successor = predecessor.next;
