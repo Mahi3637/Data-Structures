@@ -21,12 +21,16 @@ public class GameArena {
                         }
                     }
                     if (i + 1 < rows) {
-                        if (arena[i + 1][j] == 2) count2++;
+                        if (arena[i + 1][j] == 2){
+                            count2++;
+                        }
                     }
                     if (j - 1 >= 0 && arena[i][j - 1] == 2) {
                         count2++;
                     }
-                    if (j + 1 < cols && arena[i][j + 1] == 2) count2++;
+                    if (j + 1 < cols && arena[i][j + 1] == 2){
+                        count2++;
+                    } 
 
                     int pointsEarned = count2 * count2;
                     totalPoints += pointsEarned;
